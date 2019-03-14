@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -31,7 +31,7 @@
     /* ==========================================================================
     countdown timer
     ========================================================================== */
-     jQuery('#clock').countdown('2018/10/19',function(event){
+     jQuery('#clock').countdown('2019/05/03',function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> Days</div> '
       +'<div class="time-entry hours"><span>%H</span> Hours</div> '
@@ -47,10 +47,10 @@
     });
     wow.init();
 
-    // one page navigation 
+    // one page navigation
     $('.onepage-nev').onePageNav({
             currentClass: 'active'
-    }); 
+    });
 
     /* Back Top Link active
     ========================================================*/
@@ -72,6 +72,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
