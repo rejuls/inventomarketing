@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 .col-2-container h4{
-    margin:2%;
+    margin:4% 2%;
     font-size: 20px;
 }
 .col-2-container{
@@ -21,10 +21,34 @@
 }
 .row-3-container{
   display: flex;
+  margin: 3% 0;
 }
 .row-3-item{
   margin: 2%;
   text-align: center;
   display: block;
   width: 40%;
+
+}
+.row-2-item{
+  margin: 2%;
+  text-align: center;
+  display: block;
+  width: 50%;
+}
+.row-2-item p ,.row-3-item p{
+  font-size: 12px;
+}
+@media (max-width: 991px) {
+  .row-3-container{
+      display: block;
+      width: 100%;
+  }
+  .row-3-item{
+      width: 100%;
+      margin: 0;
+  }
+  .row-2-item{
+      width: 100%;
+  }
 }
