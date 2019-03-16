@@ -1,0 +1,30 @@
+.col-2-container-row{
+    margin:2% 0;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    background-color: #262626;
+    color: #e2e2e2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.col-2-container h4{
+    margin:2%;
+    font-size: 20px;
+}
+.col-2-container{
+    width: 100%;
+    margin:auto 0;
+}
+.col-2-container ol,.col-2-container li{
+    margin: 2% 0;
+}
+.row-3-container{
+  display: flex;
+}
+.row-3-item{
+  margin: 2%;
+  text-align: center;
+  display: block;
+  width: 40%;
+}
