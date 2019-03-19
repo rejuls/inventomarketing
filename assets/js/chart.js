@@ -3,11 +3,11 @@ google.charts.setOnLoadCallback(drawVisualization);
 function drawVisualization() {
        // Some raw data (not necessarily accurate)
        var data = google.visualization.arrayToDataTable([
-         ['Year', 'Total-Walk-ins', 'Registrations', 'Number of Events(Including Shows and Pre-events)'],
-         ['2012',  400,                 250,                25,],
-         ['2016',  700,                600,                40, ],
-         ['2017',  900,                750,                60, ],
-         ['2018',  1000,                850,                70,],
+         ['Year', 'Total-Walk-ins', 'Registrations'],
+         ['2012',  400,                 250,       ],
+         ['2016',  700,                600,        ],
+         ['2017',  900,                750,        ],
+         ['2018',  1000,                850,       ],
        ]);
 
        var options = {
@@ -29,7 +29,7 @@ function drawVisualization2() {
          ['2012', 1.5],
          ['2016', 3],
          ['2017', 5],
-         ['2018', 4.6],
+         ['2018', 5.6],
        ]);
 
        var options = {

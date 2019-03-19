@@ -26,6 +26,14 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h4.i9-sub{
+font-size:30px;
+}
+
+img.logo-foot{
+  max-width: 40%;
+}
+
 a {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;

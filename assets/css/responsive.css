@@ -16,6 +16,8 @@
   .countdown-timer {
     padding: 260px 0;
   }
+  
+
 }
 
 /* tablets */
@@ -58,8 +60,14 @@
   .section-sub {
     font-size: 16px;
   }
+
+  img.logo-foot{
+    max-width: 100%;
+    max-height:80%;
+  }
+
   .intro .heading-count h2 {
-    font-size: 26px;
+    font-size: 40px;
   }
   .time-countdown .time-entry {
     width: 100px;
@@ -68,6 +76,9 @@
   .time-countdown .time-entry span {
     font-size: 30px;
   }
+  h4.i9-sub{
+  font-size:20px;
+}
   .time-countdown {
     margin-bottom: 30px;
   }
