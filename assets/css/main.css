@@ -327,7 +327,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
+  background: #262626 !important;
+  color: #e2e2e2;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -363,7 +364,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link i {
   font-size: 28px;
-  color: #E91E63;
+  color: #e2e2e2;
   vertical-align: middle;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -498,11 +499,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_btn {
-  border-color: #E91E63;
+  border-color: #e2e2e2;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #E91E63;
+  background: #e2e2e2;
 }
 
 /* only small tablets */
@@ -1292,4 +1293,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #copyright p a:hover {
   color: #E91E63;
+}
+#navbar-modified{
+    background-color: grey;
+}
+#logo-img{
+  width: 200px;
 }
