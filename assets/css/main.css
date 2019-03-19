@@ -18,6 +18,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
+  scroll-behaviour:smooth;
 }
 
 h1, h2, h3, h4 {
