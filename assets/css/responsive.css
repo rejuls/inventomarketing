@@ -16,7 +16,7 @@
   .countdown-timer {
     padding: 260px 0;
   }
-  
+
 
 }
 
@@ -78,7 +78,10 @@
   }
   h4.i9-sub{
   font-size:20px;
-}
+  }
+  h4.i9-date{
+  font-size:15px;
+  }
   .time-countdown {
     margin-bottom: 30px;
   }
